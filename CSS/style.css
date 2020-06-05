@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+.container{
+    margin: 10px;
+}
+.content{
+    display: flex;
+}
+
+.sidebar{
+    width: 30%;
+}
+#searchId{
+    width: 100%;
+    font-size: 18px;
+    /* padding: 10px; */
+    border: 1px solid #555555;
+}
+
+#Menus{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Menus li a{
+    padding: 12px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+#Menus li a:hover{
+    background-color: #eeeeee;
+}
+
+.details{
+    width: 70%;
+    padding-left: 10px;
+    border: 1px solid #555;
+}
