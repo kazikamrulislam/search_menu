@@ -10,11 +10,11 @@ body{
 
 .sidebar{
     width: 30%;
+    border: 1px solid #555555;
 }
 #searchId{
-    width: 100%;
+    width: 98.5%;
     font-size: 18px;
-    /* padding: 10px; */
     border: 1px solid #555555;
 }
 
