@@ -6,16 +6,26 @@ body{
 }
 .content{
     display: flex;
+    height: 500px;
+    overflow: hidden;
 }
 
 .sidebar{
     width: 30%;
     border: 1px solid #555555;
 }
+.sidebar h2{
+    padding: 20px 10px 20px 10px;
+    background-color: #555555;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 #searchId{
-    width: 98.5%;
+    width: -webkit-fill-available;
     font-size: 18px;
+    padding: 11px;
     border: 1px solid #555555;
+    border-radius: 0 0 5px 5px;
 }
 
 #Menus{
@@ -32,7 +42,8 @@ body{
 }
 
 #Menus li a:hover{
-    background-color: #eeeeee;
+    background-color: #555555;
+    color: #ffffff;
 }
 
 .details{
