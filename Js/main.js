@@ -14,3 +14,21 @@ function searchfun(){
       }
     }
 }
+
+
+//onclick evt//
+function openteu(langName, elmnt){
+    let i, tabcont, tablink;
+
+    tabcont = document.getElementsByClassName("tabcont");
+    for(i = 0; i < tabcont.length; i++){
+        tabcont[i].style.display = "none";
+    }
+    tablink = document.getElementsByClassName("tablink");
+    for(i = 0; i < tablink.length; i++){
+          tablink[i].className = tablink[i].className.replace("active", "");
+    }
+
+    document.getElementById(langName).style.display = "block";
+    langName.currentTarget.className += " active";
+}
