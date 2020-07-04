@@ -17,7 +17,7 @@ function searchfun(){
 
 
 //onclick evt//
-function openteu(langName, elmnt){
+function openteu(langName, elmnt, color){
     let i, tabcont, tablink;
 
     tabcont = document.getElementsByClassName("tabcont");
@@ -30,5 +30,7 @@ function openteu(langName, elmnt){
     }
 
     document.getElementById(langName).style.display = "block";
+    
     langName.currentTarget.className += " active";
+    elmnt.style.backgroundColor = color;
 }
